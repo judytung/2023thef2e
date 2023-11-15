@@ -1,4 +1,6 @@
 import './assets/css/main.css';
+import Swiper from 'swiper';
+import 'swiper/css'
 
 const navToggle = document.querySelector('#nav-toggle');
 const nav = document.querySelector('#nav');
@@ -14,4 +16,9 @@ close.addEventListener('click', ()=> {
     nav.classList.remove('visible');
 });
 
-const swiper = new Swiper(".mySwiper", {});
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {delay: 2000}
+});

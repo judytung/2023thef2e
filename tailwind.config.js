@@ -25,6 +25,12 @@ export default {
       '5xl': '40px',
       '6xl': '60px'
     },
+    borderRadius: {
+      'none': '0',
+      'lg': '10px',
+      'xl': '14px',
+      'full': '9999px',
+    },
     extend: {
       colors: {
         primary: {
@@ -39,11 +45,12 @@ export default {
           300: '#F2EEE5',
           500: '#E9CB9E',
           700: '#CABD9E',
-          900: '#CABD9E'
+          900: '#DAB071'
         },
         accent: '#0F2F33',
       },
       spacing: {
+        '5.5': '1.375rem',
         '9.5': '2.375rem',
         '15.5': '3.875rem',
         '34': '8.5rem',
