@@ -1,5 +1,5 @@
 import './assets/css/main.css';
-import Swiper, {Autoplay} from 'swiper';
+import Swiper, { Autoplay } from 'swiper';
 import 'swiper/css';
 
 const navToggle = document.querySelector('#nav-toggle');
@@ -22,5 +22,8 @@ const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
-    autoplay: {delay: 2500},
+    autoplay: {
+        delay: 2500,
+        
+    },
 });
