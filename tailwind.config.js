@@ -24,10 +24,13 @@ export default {
       '4xl': '30px',
       '5xl': '35px',
       '6xl': '40px',
-      '7xl': '60px'
+      '7xl': '45px',
+      '8xl': '60px',
+      '9xl': '90px'
     },
     borderRadius: {
       'none': '0',
+      DEFAULT: '4px',
       'lg': '10px',
       'xl': '14px',
       '3xl': '24px',
@@ -36,6 +39,7 @@ export default {
     extend: {
       colors: {
         primary: {
+          200: '#FAF292',
           300: '#EAE088',
           500: '#CDCF84',
           700: '#B4C081',
@@ -49,7 +53,10 @@ export default {
           700: '#CABD9E',
           900: '#DAB071'
         },
-        accent: '#0F2F33',
+        accent: {
+          1: '#0F2F33',
+          2: '#051A1D;'
+        },
         dark: '#3D3D3D'
       },
       spacing: {
@@ -64,6 +71,7 @@ export default {
         '18': '4.5rem',
         '27': '6.75rem',
         '34': '8.5rem',
+        '41': '10.25rem',
         '41.5': '10.375rem',
         '47': '11.75rem',
         '50': '12.5rem',
@@ -81,6 +89,9 @@ export default {
       },
       borderWidth: {
         '3': '3px'
+      },
+      backgroundSize: {
+        50: '50%'
       }
     },
   },
