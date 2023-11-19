@@ -35,6 +35,7 @@ export default defineConfig({
     // 啟動 server 時預設開啟的頁面
     open: 'pages/index.html',
   },
+  publicDir: 'assets',
   build: {
     rollupOptions: {
       input: Object.fromEntries(
