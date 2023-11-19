@@ -99,9 +99,6 @@ export default {
         50: '50%',
         272: '272%'
       },
-      backgroundImage: {
-        'pattern': "url('../assets/images/img_2.png')"
-      }
     },
   },
   plugins: [],
