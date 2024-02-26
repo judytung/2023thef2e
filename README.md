@@ -1,8 +1,8 @@
-# 網頁切版直播班 Vite 範例
+# 2023 THe F2E 切版練習 
 
-## Node.js 版本
-  - 專案的 Node.js 版本需為 v16 以上
-  - 查看自己版本指令：`node -v`
+## 使用
+  - Tailwindcss 
+  - Vite
 
 
 ## 指令列表
@@ -22,10 +22,6 @@
   - pages # 頁面放置處
 
 - JavaScript 程式碼可寫在 main.js 檔案
-
-### 注意事項
-- 已將 pages 資料夾內的 index.html 預設為首頁，建議不要任意修改 index.html 的檔案名稱
-- .gitignore 檔案是用來忽略掉不該上傳到 GitHub 的檔案（例如 node_modules），請不要移除 .gitignore
 
 ## 開發模式的監聽
 vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使用 `Live Sass Compiler` 的 `Watch SCSS` 功能
