@@ -1,5 +1,7 @@
 # 2023 THe F2E 切版練習 
 
+[觀看頁面](https://judytung.github.io/2023thef2e/)
+
 ## 使用
   - Tailwindcss 
   - Vite
